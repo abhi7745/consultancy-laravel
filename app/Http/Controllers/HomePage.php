@@ -30,6 +30,7 @@ class HomePage extends Controller
             $mailData = [
                 'name' => $request->name,
                 'email' => $request->email,
+                'phone' => $request->phone,
                 'subject' => $request->subject,
                 'message' => $request->message,
             ];

@@ -415,16 +415,19 @@
                     <form id="form" action="{{ route('send-mail') }}" method="POST" class="consultation">
                         @csrf
                         <div class="form-group">
-                        <input type="text" name="name" class="form-control" placeholder="Your Name">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                        <input type="text" name="email" class="form-control" placeholder="Your Email">
+                            <input type="number"  onKeyPress="if(this.value.length==10) return false;" name="phone" class="form-control" placeholder="Phone Number" required>
                         </div>
                         <div class="form-group">
-                        <input type="text" name="subject" class="form-control" placeholder="Subject">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                        <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                        <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                        <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
                         </div>
                         <div class="form-group">
                         <input type="submit" value="Send message" id="submitBtn" class="btn btn-primary py-3 px-4">
