@@ -110,9 +110,9 @@
     			<div class="col-md-6 d-flex">
     				{{-- <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url({{ asset('assets/images/about.jpg') }});"> --}}
     				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(https://img.freepik.com/premium-photo/young-indian-business-woman-isolated-white-showing-number-two-with-fingers_1187-128810.jpg?w=2000);">
-    					<a href="https://www.youtube.com/watch?v=hndP_eTLClc" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
+    					{{-- <a href="https://www.youtube.com/watch?v=hndP_eTLClc" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
     						<span class="icon-play"></span>
-    					</a>
+    					</a> --}}
     				</div>
     			</div>
     			<div class="col-md-6 px-5 py-5">

@@ -43,13 +43,13 @@
 
             <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
-                <li class="nav-item"><a href="#practice-areas" class="nav-link">Practical Areas</a></li>
+                <li class="nav-item active"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="/#practice-areas" class="nav-link">Practical Areas</a></li>
                 <li class="nav-item"><a href="{{ route('services') }}" class="nav-link">Services</a></li>
                 {{-- <li class="nav-item"><a href="attorneys.html" class="nav-link">Attorneys</a></li> --}}
                 {{-- <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li> --}}
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                <li class="nav-item"><a href="/#contact" class="nav-link">Contact</a></li>
             </ul>
             </div>
         </div>
