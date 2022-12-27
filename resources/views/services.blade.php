@@ -56,7 +56,7 @@
     </nav>
     <!-- END nav -->
 
-    <section class="hero-wrap hero-wrap-2" style="background-image: url(https://img.freepik.com/premium-photo/young-indian-business-woman-isolated-white-showing-number-two-with-fingers_1187-128810.jpg?w=2000);" data-stellar-background-ratio="0.5">
+    <section class="hero-wrap hero-wrap-2" style="background-image: url({{ asset('assets/images/main/services.png') }});" data-stellar-background-ratio="0.5">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text align-items-end justify-content-center">

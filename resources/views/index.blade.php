@@ -54,8 +54,8 @@
 
 
     {{-- <div class="hero-wrap js-fullheight" style="background-image: url({{ asset('assets/images/bg_1.jpg') }});" data-stellar-background-ratio="0.5"> --}}
-    <div class="hero-wrap js-fullheight" style="background-image: url(https://img.freepik.com/premium-photo/young-indian-business-woman-isolated-white-showing-number-two-with-fingers_1187-128810.jpg?w=2000);" data-stellar-background-ratio="0.5">
-      <div class="overlay"></div>
+    <div class="hero-wrap js-fullheight mobile_view_img_changer" style="background-image: url({{ asset('assets/images/main/c-side.png') }})" data-stellar-background-ratio="0.5">
+      {{-- <div class="overlay"></div> --}}
       <div class="container-fluid px-md-5">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-start" data-scrollax-parent="true">
           <div class="col-md-6 ftco-animate" >
@@ -109,7 +109,7 @@
     		<div class="row d-flex">
     			<div class="col-md-6 d-flex">
     				{{-- <div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url({{ asset('assets/images/about.jpg') }});"> --}}
-    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url(https://img.freepik.com/premium-photo/young-indian-business-woman-isolated-white-showing-number-two-with-fingers_1187-128810.jpg?w=2000);">
+    				<div class="img img-video d-flex align-self-stretch align-items-center justify-content-center justify-content-md-end" style="background-image:url({{ asset('assets/images/main/A5.JPG') }});">
     					{{-- <a href="https://www.youtube.com/watch?v=hndP_eTLClc" class="icon-video popup-vimeo d-flex justify-content-center align-items-center">
     						<span class="icon-play"></span>
     					</a> --}}
@@ -839,6 +839,15 @@
 
 </style>
 <!-- floating whatsapp button -->
+
+<style>
+	@media only screen and (max-width: 767px) {
+	.mobile_view_img_changer {
+			background-image: url({{ asset('assets/images/main/c-center.png') }}) !important;
+		}
+	}
+
+</style>
 
   <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
   <script src="{{ asset('assets/js/jquery-migrate-3.0.1.min.js') }}"></script>
